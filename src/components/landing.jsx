@@ -1,4 +1,5 @@
 import { useRef, useEffect } from "react";
+import "../styles/landing.css";
 
 export default function Landing() {
     const nameREF = useRef(null);
@@ -52,11 +53,14 @@ export default function Landing() {
     }, 2500);
 
     return (
-        <div className="text-white h-[90vh]">
+        <div id="home" className="text-white h-[100vh] section">
             <div className="flex flex-col justify-center items-center h-full ">
-                <h1 className="text-9xl font-space" ref={nameREF}>
-                    SAMARTHYA
-                </h1>
+                <header>
+                    <h1 className="heroText text-9xl font-space" ref={nameREF}>
+                        SAMARTHYA
+                    </h1>
+                </header>
+
                 <h2
                     className="text-2xl font-inconsolata text-zinc-400 text-center pb-8"
                     ref={motto}
@@ -68,9 +72,12 @@ export default function Landing() {
                     <div className="font-space text-xl bg-zinc-800 py-4 px-16 rounded-3xl text-zinc-400">
                         29 - 30 APRIL
                     </div>
-                    <div className="font-space text-xl bg-cyan-700 py-4 px-16 rounded-3xl text-white cursor-pointer hover:scale-105 transition ease-in-out">
+                    <a
+                        href="#register"
+                        className="font-space text-xl bg-cyan-700 py-4 px-16 rounded-3xl text-white cursor-pointer hover:scale-105 transition ease-in-out"
+                    >
                         REGISTER FOR THE HACK
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>

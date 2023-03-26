@@ -1,8 +1,33 @@
 import logo from "../assets/logo.png";
+import "../styles/navbar.css";
+import { useEffect } from "react";
 
 export default function NavBar() {
+    useEffect(() => {
+        const navLinks = document.querySelectorAll("nav a");
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.intersectionRatio > 0) {
+                    navLinks.forEach((e) => {
+                        if (e.href.split("#")[1] == entry.target.id) {
+                            e.classList.add("highlight");
+                        } else {
+                            e.classList.remove("highlight");
+                        }
+                    });
+                }
+            });
+        });
+
+        document
+            .querySelectorAll(".section")
+            .forEach((e) => observer.observe(e));
+    }, []);
     return (
-        <nav className="bg-light flex p-4 items-center sticky top-0">
+        <nav
+            className="bg-[#100d11] flex p-4 items-center fixed w-screen top-0 z-10"
+            id="mainNav"
+        >
             <img
                 src={logo}
                 alt="Samarthya Logo"
@@ -11,40 +36,38 @@ export default function NavBar() {
             <div className="font-secular text-white text-xl pl-4">
                 Samarthya
             </div>
-            <div className="ml-auto font-secular text-white">
+            <div className=" ml-auto font-secular text-white">
                 <a
-                    href=""
-                    className="px-4  hover:text-slate-400 transition ease-in-out"
+                    href="#home"
+                    className="px-4 hover:text-slate-400 transition ease-in-out highlight"
                 >
                     HOME
                 </a>
                 <a
-                    href=""
+                    href="#about"
                     className="px-4  hover:text-slate-400 transition ease-in-out"
                 >
                     ABOUT
                 </a>
                 <a
-                    href=""
+                    href="#events"
                     className="px-4  hover:text-slate-400 transition ease-in-out"
                 >
                     EVENTS
                 </a>
                 <a
-                    href=""
+                    href="#prizes"
                     className="px-4  hover:text-slate-400 transition ease-in-out"
                 >
-                    SPONSORS
+                    PRIZES
                 </a>
+
                 <a
-                    href=""
-                    className="px-4  hover:text-slate-400 transition ease-in-out"
+                    href="#register"
+                    className="px-3 py-3 bg-sky-600 rounded-xl hover:outline cursor-pointer hover:outline-1 hover:bg-transparent transition ease-in-out hover:scale-105"
                 >
-                    FAQ
-                </a>
-                <button className="px-3 py-3 bg-sky-600 rounded-xl hover:outline hover:outline-1 hover:bg-transparent transition ease-in-out hover:scale-105">
                     REGISTER
-                </button>
+                </a>
             </div>
         </nav>
     );
