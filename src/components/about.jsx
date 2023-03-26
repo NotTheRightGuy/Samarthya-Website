@@ -4,7 +4,7 @@ export default function About() {
     return (
         <section
             id="about"
-            className="grid h-screen bg-zinc-800 rounded-lg m-16 grid-cols-2 text-white section"
+            className="grid h-screen bg-zinc-800 rounded-lg m-16 grid-cols-2 text-white section overflow-hidden"
         >
             <div className="rounded-lg relative">
                 <div className="text-8xl font-space absolute top-1 left-1 text-zinc-500">
