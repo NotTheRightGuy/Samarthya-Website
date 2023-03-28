@@ -12,8 +12,8 @@ export default function Prizes() {
                     PRIZES
                 </div>
             </div>
-            <div className="text-zinc-300 pt-32 p-4 font-inconsolata text-4xl">
-                WILL BE REVEALED SOON!!
+            <div className="text-zinc-300 pt-32 p-4 font-inconsolata text-2xl">
+                Will be revealed soon!!
             </div>
         </div>
     );
