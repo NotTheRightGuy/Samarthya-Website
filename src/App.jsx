@@ -5,7 +5,6 @@ import Events from "./components/events";
 import Prizes from "./components/prizes";
 import Register from "./components/register";
 import Footer from "./components/footer";
-
 import "../fontawesome/css/all.css";
 
 function App() {

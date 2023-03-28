@@ -37,7 +37,7 @@ export default function Landing() {
 
     setTimeout(() => {
         motto.current.className =
-            "text-2xl font-inconsolata text-zinc-400 text-center pb-8";
+            "sm:text-lg text-2xl font-inconsolata text-zinc-400 text-center sm:pb-5 pb-8 sm:m-3";
         motto.current.style.transition =
             "all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)";
         motto.current.style.opacity = "1";
@@ -53,28 +53,28 @@ export default function Landing() {
     }, 2500);
 
     return (
-        <div id="home" className="text-white h-[100vh] section">
+        <div id="home" className="text-white h-[100vh] section ">
             <div className="flex flex-col justify-center items-center h-full ">
                 <header>
-                    <h1 className="heroText text-9xl font-space" ref={nameREF}>
+                    <h1
+                        className="heroText font-space text-9xl  sm:text-4xl"
+                        ref={nameREF}
+                    >
                         SAMARTHYA
                     </h1>
                 </header>
 
-                <h2
-                    className="text-2xl font-inconsolata text-zinc-400 text-center pb-8"
-                    ref={motto}
-                >
+                <div ref={motto}>
                     Join the ultimate festival for developers and programmers of
-                    all skill levels! <br></br> Hack, learn, and have fun!
-                </h2>
-                <div className="flex gap-4" ref={hackInfo}>
-                    <div className="font-space text-xl bg-zinc-800 py-4 px-16 rounded-3xl text-zinc-400">
-                        29 - 30 APRIL
+                    all skill levels! <br></br>Hack, learn, and have fun!
+                </div>
+                <div ref={hackInfo}>
+                    <div className="font-space text-xl sm:text-sm bg-zinc-800 py-4 px-16  sm:px-4 rounded-3xl text-zinc-400">
+                        6 - 7 MAY
                     </div>
                     <a
                         href="#register"
-                        className="font-space text-xl bg-cyan-700 py-4 px-16 rounded-3xl text-white cursor-pointer hover:scale-105 transition ease-in-out"
+                        className="font-space text-xl sm:text-sm bg-cyan-700 py-4 px-16 sm:px-4 rounded-3xl text-white cursor-pointer hover:scale-105 transition ease-in-out"
                     >
                         REGISTER FOR THE HACK
                     </a>
