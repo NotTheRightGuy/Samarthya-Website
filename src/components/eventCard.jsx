@@ -24,18 +24,23 @@ export default function EventCard({ title, content, date, team_number }) {
 
     return (
         <div
-            className="bg-zinc-800 rounded-lg p-4 text-left font-inconsolata hover:outline hover:outline-2 hover:outline-zinc-500"
+            className="bg-zinc-800 rounded-lg p-4 text-left font-inconsolata hover:outline hover:outline-2 hover:outline-zinc-500 "
             onMouseEnter={() => handleOver()}
         >
-            <span className="text-3xl font-space text-zinc-500" ref={titleRef}>
+            <span
+                className="text-3xl font-space text-zinc-500 max-mobile:text-2xl"
+                ref={titleRef}
+            >
                 {title}
             </span>
-            <div className="mt-4 text-zinc-300 text-lg">{content}</div>
-            <div className="mt-5 text-lg text-zinc-300">
+            <div className="mt-4 text-zinc-300 text-lg max-mobile:text-base">
+                {content}
+            </div>
+            <div className="mt-5 text-lg text-zinc-300 max-mobile:text-sm">
                 <span className="fa-regular fa-calendar-days mr-3"></span>
                 {date}
             </div>
-            <div className="text-lg text-zinc-300">
+            <div className="text-lg text-zinc-300 max-mobile:text-sm">
                 <span className="fa-regular fa-user mr-1"></span> {team_number}
             </div>
         </div>

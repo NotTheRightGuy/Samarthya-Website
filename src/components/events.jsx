@@ -6,7 +6,7 @@ export default function Events() {
             <div className="bg-zinc-800 text-zinc-400 px-5 py-2 mb-8 font-space text-3xl inline-flex -skew-y-3 ">
                 EVENTS
             </div>
-            <section className="grid gap-4 grid-cols-2 mx-16">
+            <section className="grid gap-4 grid-cols-2 mx-16 max-mobile:mx-4 max-mobile:grid-cols-1">
                 <EventCard
                     title={"Saviskar"}
                     content={
