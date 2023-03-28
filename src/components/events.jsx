@@ -7,7 +7,7 @@ export default function Events() {
                 EVENTS
             </div>
             <section className="Event-Card-Container flex my-16 mx-16 justify-evenly w-[90wh]">
-                <EventCard />
+                <EventCard content={"Hello World"} />
                 <EventCard />
                 <EventCard />
                 <EventCard />

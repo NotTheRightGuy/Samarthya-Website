@@ -37,7 +37,7 @@ export default function Landing() {
 
     setTimeout(() => {
         motto.current.className =
-            "sm:text-lg text-2xl font-inconsolata text-zinc-400 text-center sm:pb-5 pb-8 sm:m-3";
+            "text-2xl font-inconsolata text-zinc-400 text-center pb-8 max-mobile:text-base max-mobile:m-2";
         motto.current.style.transition =
             "all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)";
         motto.current.style.opacity = "1";
@@ -45,7 +45,7 @@ export default function Landing() {
     }, 2100);
 
     setTimeout(() => {
-        hackInfo.current.className = "flex gap-4";
+        hackInfo.current.className = "flex gap-4 max-mobile:gap-2";
         hackInfo.current.style.transition =
             "all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)";
         hackInfo.current.style.opacity = "1";
@@ -53,11 +53,11 @@ export default function Landing() {
     }, 2500);
 
     return (
-        <div id="home" className="text-white h-[100vh] section ">
+        <div id="home" className="text-white h-screen section ">
             <div className="flex flex-col justify-center items-center h-full ">
                 <header>
                     <h1
-                        className="heroText font-space text-9xl  sm:text-4xl"
+                        className="heroText font-space text-9xl max-mobile:text-5xl"
                         ref={nameREF}
                     >
                         SAMARTHYA
@@ -69,12 +69,12 @@ export default function Landing() {
                     all skill levels! <br></br>Hack, learn, and have fun!
                 </div>
                 <div ref={hackInfo}>
-                    <div className="font-space text-xl sm:text-sm bg-zinc-800 py-4 px-16  sm:px-4 rounded-3xl text-zinc-400">
+                    <div className="font-space text-xl bg-zinc-800 py-4 px-16 rounded-3xl text-zinc-400 max-mobile:px-6 max-mobile:mx-2 max-mobile:text-sm">
                         6 - 7 MAY
                     </div>
                     <a
                         href="#register"
-                        className="font-space text-xl sm:text-sm bg-cyan-700 py-4 px-16 sm:px-4 rounded-3xl text-white cursor-pointer hover:scale-105 transition ease-in-out"
+                        className="font-space text-xl max-mobile:text-sm bg-cyan-700 py-4 px-16 max-mobile:px-8 rounded-3xl text-white cursor-pointer hover:scale-105 transition ease-in-out "
                     >
                         REGISTER FOR THE HACK
                     </a>

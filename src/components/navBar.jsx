@@ -25,7 +25,7 @@ export default function NavBar() {
     }, []);
     return (
         <nav
-            className="bg-[#100d11] flex p-4 items-center fixed w-screen top-0 z-10 sm:invisible"
+            className="bg-[#100d11] flex p-4 items-center fixed w-screen top-0 z-10 max-mobile:invisible"
             id="mainNav"
         >
             <img

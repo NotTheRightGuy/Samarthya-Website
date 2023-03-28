@@ -3,11 +3,10 @@ module.exports = {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
         screens: {
-            "2xl": { max: "1535px" },
-            xl: { max: "1279px" },
-            lg: { max: "1023px" },
-            md: { max: "767px" },
-            sm: { max: "639px" },
+            mobile: "480px",
+            tablet: "640px",
+            laptop: "1024px",
+            desktop: "1280px",
         },
         fontFamily: {
             secular: ['"Secular One"', "monospace"],

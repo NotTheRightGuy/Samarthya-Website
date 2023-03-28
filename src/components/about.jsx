@@ -4,7 +4,7 @@ export default function About() {
     return (
         <section
             id="about"
-            className=" grid h-screen bg-zinc-800 rounded-lg m-16 sm:m-8 grid-cols-2 section sm:grid-cols-1"
+            className=" grid h-screen bg-zinc-800 rounded-lg m-16 grid-cols-2 section"
         >
             <div className="rounded-lg relative ">
                 <div className="text-8xl font-space absolute top-1  left-8 text-zinc-500">
@@ -13,7 +13,7 @@ export default function About() {
                 <div className="absolute font-space text-2xl  text-white top-16 left-20 ">
                     ABOUT
                 </div>
-                <div className="sm:text-sm text-zinc-500 sm:text-white font-inconsolata text-xl absolute top-32 left-12 right-7 ">
+                <div className="text-zinc-500 font-inconsolata text-xl absolute top-32 left-12 right-7 ">
                     Welcome to Samarthya, the ultimate platform for showcasing
                     your technological innovations and skills.<br></br>
                     <br></br> The ASPD club of Adani University is proud to
@@ -21,7 +21,7 @@ export default function About() {
                     techfest of Adani University. Over the course of two
                     weekends, we offer a wide range of events and programs,
                     packed with exciting opportunities and cash prizes. Our goal
-                    is to showcase the latest advancements in technology,
+                    is to showcase the latest advancements in technology,.
                     promote creativity and collaboration, and provide a platform
                     for networking and learning. At Samarthya Techfest, we offer
                     a unique opportunity for college students to showcase their
@@ -40,7 +40,7 @@ export default function About() {
                 <img
                     src={gif}
                     alt="coding gif"
-                    className="h-screen rounded-lg sm:opacity-20 "
+                    className="h-screen rounded-lg object-cover"
                 />
             </div>
         </section>
