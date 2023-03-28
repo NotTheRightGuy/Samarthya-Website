@@ -4,7 +4,7 @@ export default function About() {
     return (
         <section
             id="about"
-            className=" grid h-screen max-mobile:h-max bg-zinc-800 rounded-lg m-16 grid-cols-2 section max-mobile:m-5 max-mobile:grid-cols-1"
+            className=" grid h-auto max-mobile:h-max bg-zinc-800 rounded-lg m-16 grid-cols-2 section max-mobile:m-5 max-mobile:grid-cols-1"
         >
             <div className="rounded-lg relative ">
                 <div className="text-8xl font-space absolute top-1  left-8 text-zinc-500">
