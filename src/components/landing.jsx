@@ -69,12 +69,12 @@ export default function Landing() {
                     all skill levels! <br></br>Hack, learn, and have fun!
                 </div>
                 <div ref={hackInfo}>
-                    <div className="font-space text-xl bg-zinc-800 py-4 px-16 rounded-3xl text-zinc-400 max-mobile:px-6 max-mobile:mx-2 max-mobile:text-sm">
+                    <div className="font-space text-xl bg-zinc-800 py-4 px-16 rounded-3xl text-zinc-400 max-mobile:px-2 max-mobile:mx-2 max-mobile:text-sm">
                         6 - 7 MAY
                     </div>
                     <a
                         href="#register"
-                        className="font-space text-xl max-mobile:text-sm bg-cyan-700 py-4 px-16 max-mobile:px-8 rounded-3xl text-white cursor-pointer hover:scale-105 transition ease-in-out "
+                        className="font-space text-xl max-mobile:text-sm bg-cyan-700 py-4 px-16 max-mobile:px-5 rounded-3xl text-white cursor-pointer hover:scale-105 transition ease-in-out "
                     >
                         REGISTER FOR THE HACK
                     </a>
