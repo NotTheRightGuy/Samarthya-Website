@@ -13,7 +13,7 @@ export default function About() {
                 <div className="absolute font-space text-2xl  text-white top-16 left-20 ">
                     ABOUT
                 </div>
-                <div className="text-zinc-500 font-inconsolata text-xl max-mobile:text-sm absolute top-28 left-8 right-6 max-mobile:text-white max-mobile:leading-4">
+                <div className="text-zinc-500 font-inconsolata text-xl max-mobile:text-sm  absolute top-28 left-8 right-6 max-mobile:text-white max-mobile:leading-4">
                     Welcome to Samarthya, the ultimate platform for showcasing
                     your technological innovations and skills.<br></br>
                     <br></br> The ASPD club of Adani University is proud to
