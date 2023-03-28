@@ -4,39 +4,43 @@ export default function About() {
     return (
         <section
             id="about"
-            className="grid h-screen bg-zinc-800 rounded-lg m-16 grid-cols-2 text-white section overflow-hidden"
+            className=" grid h-screen bg-zinc-800 rounded-lg m-16 grid-cols-2 section sm:grid-cols-1"
         >
-            <div className="rounded-lg relative">
-                <div className="text-8xl font-space absolute top-1 left-1 text-zinc-500">
+            <div className="rounded-lg relative ">
+                <div className="text-8xl font-space absolute top-1  left-8 text-zinc-500">
                     01
                 </div>
-                <div className="absolute font-space text-2xl text-white top-16 left-12 ">
+                <div className="absolute font-space text-2xl  text-white top-16 left-20 ">
                     ABOUT
                 </div>
-                <div className="text-zinc-500 font-inconsolata text-2xl absolute top-32 left-12">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Voluptatem, quam? Reiciendis vitae voluptatibus error
-                    ducimus ipsa sed libero! Laudantium mollitia ipsa
-                    blanditiis, quos iusto unde perspiciatis animi. Doloremque
-                    ratione esse laboriosam maxime accusamus, mollitia expedita
-                    quaerat reprehenderit repudiandae nesciunt iure recusandae
-                    debitis commodi voluptatem dignissimos cumque quidem tempore
-                    <br></br>
-                    <br></br>
-                    pariatur, perspiciatis suscipit aliquid. Repellendus minus
-                    beatae quia ex quaerat sapiente perferendis distinctio
-                    veniam asperiores, impedit libero non voluptatibus,
-                    excepturi hic? Fuga facere odit totam suscipit sit mollitia
-                    eaque veritatis modi nam vel! Iste ratione ea perspiciatis
-                    totam adipisci explicabo eveniet earum numquam iusto,
-                    laudantium sit. Ducimus temporibus incidunt sed natus nulla.
+                <div className="sm:text-sm text-zinc-500 sm:text-white font-inconsolata text-xl absolute top-32 left-12 right-7 ">
+                    Welcome to Samarthya, the ultimate platform for showcasing
+                    your technological innovations and skills.<br></br>
+                    <br></br> The ASPD club of Adani University is proud to
+                    present Samarthya Techfest - the first student-driven
+                    techfest of Adani University. Over the course of two
+                    weekends, we offer a wide range of events and programs,
+                    packed with exciting opportunities and cash prizes. Our goal
+                    is to showcase the latest advancements in technology,
+                    promote creativity and collaboration, and provide a platform
+                    for networking and learning. At Samarthya Techfest, we offer
+                    a unique opportunity for college students to showcase their
+                    talents and be recruited by top corporations. With a focus
+                    on innovation and technology, we aim to inspire and empower
+                    the next generation of tech leaders. <br></br>
+                    <br></br>Join us as we push the boundaries of what's
+                    possible and explore the exciting world of technology.
+                    Unlock your true potential and be a part of this exciting
+                    journey towards a brighter future. Together, let's build a
+                    better tomorrow through innovation, collaboration, and
+                    creativity.
                 </div>
             </div>
-            <div className="rounded-lg">
+            <div className="rounded-lg ">
                 <img
                     src={gif}
                     alt="coding gif"
-                    className="h-screen rounded-lg"
+                    className="h-screen rounded-lg sm:opacity-20 "
                 />
             </div>
         </section>
