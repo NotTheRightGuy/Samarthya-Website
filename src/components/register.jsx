@@ -1,6 +1,21 @@
 import register from "../assets/register.gif";
+import { useRef } from "react";
 
 export default function Register() {
+    const dropDown = useRef(null);
+    const handleEventHover = () => {
+        const eventArrow = document.getElementById("eventArrow");
+        eventArrow.style.transition = "all 0.5s ease-in-out";
+        eventArrow.style.transform = "translateY(6px)";
+        setTimeout(() => {
+            eventArrow.style.transform = "translateY(0px)";
+        }, 500);
+    };
+    const handleEventClick = () => {
+        dropDown.current.classList.toggle("hidden");
+        dropDown.current.classList.toggle("inline-flex");
+    };
+
     return (
         <div
             id="register"
@@ -22,45 +37,99 @@ export default function Register() {
                         <input
                             type="text"
                             placeholder="First Name"
-                            className="bg-transparent outline outline-1 text-white p-2 m-4  outline-white rounded-lg font-inconsolata text-2xl max-mobile:text-xl"
+                            className="bg-transparent focus:outline-4 outline outline-1 text-white p-2 m-4  outline-white rounded-lg font-inconsolata text-2xl max-mobile:text-xl"
                         />
                         <input
                             type="text"
                             placeholder="Last Name"
-                            className="bg-transparent outline outline-1 text-white p-2 m-4 outline-white rounded-lg font-inconsolata text-2xl max-mobile:text-xl"
+                            className="bg-transparent focus:outline-4 outline outline-1 text-white p-2 m-4 outline-white rounded-lg font-inconsolata text-2xl max-mobile:text-xl"
                         />
                         <br />
                         <input
                             type="email"
                             placeholder="Email"
-                            className="bg-transparent outline outline-1 text-white p-2 m-4  outline-white rounded-lg font-inconsolata text-2xl max-mobile:text-xl"
+                            className="bg-transparent focus:outline-4 outline outline-1 text-white p-2 m-4  outline-white rounded-lg font-inconsolata text-2xl max-mobile:text-xl"
                         />
                         <input
                             type="text"
                             placeholder="Contact Number"
-                            className="bg-transparent outline outline-1 text-white p-2 m-4  outline-white rounded-lg font-inconsolata text-2xl max-mobile:text-xl"
+                            className="bg-transparent focus:outline-4 outline outline-1 text-white p-2 m-4  outline-white rounded-lg font-inconsolata text-2xl max-mobile:text-xl"
                         />
                         <br />
                         <input
                             type="text"
                             placeholder="Enrolment ID"
-                            className="bg-transparent outline outline-1 text-white p-2 mt-4 mb-8  outline-white rounded-lg font-inconsolata text-2xl max-mobile:text-xl"
+                            className="bg-transparent focus:outline-4 outline outline-1 text-white p-2 mt-4 mb-8  outline-white rounded-lg font-inconsolata text-2xl max-mobile:text-xl"
                         />
                         <br />
                         <button
-                            className="text-white font-space text-xl bg-zinc-600 px-4 py-2 rounded-lg"
-                            onClick={(e) => e.preventDefault()}
+                            className="text-white font-space text-xl bg-zinc-600 px-4 py-2 rounded-lg focus:outline focus:outline-2"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                handleEventClick();
+                            }}
                             onMouseEnter={() => {
-                                handleEventBtn();
+                                handleEventHover();
                             }}
                         >
                             Events Intrested{" "}
                             <span
-                                id="eventBtn"
+                                id="eventArrow"
                                 className="fa-solid fa-arrow-down"
                             ></span>
                         </button>
-                        <br></br>
+                        <br />
+                        <div
+                            ref={dropDown}
+                            id="dropDown"
+                            className="mt-2 hidden z-50  bg-zinc-800 text-zinc-300 flex-col rounded-lg font-space text-xl w-fit p-4"
+                        >
+                            <div className="hover:scale-105 transition-all">
+                                <label htmlFor="event1">Saviskar</label>
+                                <input
+                                    type="checkbox"
+                                    id="event1"
+                                    className="ml-2"
+                                />
+                            </div>
+                            <br />
+                            <div className="hover:scale-105 transition-all">
+                                <label htmlFor="event2">Aiganite</label>
+                                <input
+                                    type="checkbox"
+                                    id="event2"
+                                    className="ml-2"
+                                />
+                            </div>
+                            <br />
+                            <div className="hover:scale-105 transition-all">
+                                <label htmlFor="event3">Devjousts</label>
+                                <input
+                                    type="checkbox"
+                                    id="event3"
+                                    className="ml-2"
+                                />
+                            </div>
+                            <br />
+                            <div className="hover:scale-105 transition-all">
+                                <label htmlFor="event4">Crack the Code</label>
+                                <input
+                                    type="checkbox"
+                                    id="event4"
+                                    className="ml-2"
+                                />
+                            </div>
+                            <br />
+                            <div className="hover:scale-105 transition-all">
+                                <label htmlFor="event5">Figma Event</label>
+                                <input
+                                    type="checkbox"
+                                    id="event5"
+                                    className="ml-2"
+                                />
+                            </div>
+                        </div>
+                        <br />
                         {/* <div className="pl-3 flex justify-center max-mobile:grid">
                             <div>
                                 <div className="text-xl text-zinc-400 font-space mb-4 max-mobile:text-base">
