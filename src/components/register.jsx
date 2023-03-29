@@ -4,7 +4,7 @@ export default function Register() {
     return (
         <div
             id="register"
-            className="section h-screen rounded-lg text-center mt-32 max-mobile:m-4 max-mobile:mt-52 max-mobile:relative"
+            className="section h-screen rounded-lg text-center mt-32 max-mobile:m-4 max-mobile:mt-52 max-mobile:relative p-12 max-mobile:p-2"
         >
             <div className="grid grid-cols-2 max-mobile:grid-cols-1">
                 <div>
@@ -47,6 +47,20 @@ export default function Register() {
                             className="bg-transparent outline outline-1 text-white p-2 mt-4 mb-8  outline-white rounded-lg font-inconsolata text-2xl max-mobile:text-xl"
                         />
                         <br />
+                        <button
+                            className="text-white font-space text-xl bg-zinc-600 px-4 py-2 rounded-lg"
+                            onClick={(e) => e.preventDefault()}
+                            onMouseEnter={() => {
+                                handleEventBtn();
+                            }}
+                        >
+                            Events Intrested{" "}
+                            <span
+                                id="eventBtn"
+                                className="fa-solid fa-arrow-down"
+                            ></span>
+                        </button>
+                        <br></br>
                         {/* <div className="pl-3 flex justify-center max-mobile:grid">
                             <div>
                                 <div className="text-xl text-zinc-400 font-space mb-4 max-mobile:text-base">
