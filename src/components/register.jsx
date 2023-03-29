@@ -33,7 +33,7 @@ export default function Register() {
                     <div className="bg-zinc-800 max-mobile:bg-zinc-600 text-zinc-400 max-mobile:text-zinc-200 px-5 py-2 font-space text-3xl inline-flex skew-y-3 mb-6 max-mobile:mt-6">
                         REGISTER
                     </div>
-                    <form data-netlify="true" name="intrested">
+                    <form name="intrested" netlify>
                         <input
                             type="text"
                             placeholder="First Name"
