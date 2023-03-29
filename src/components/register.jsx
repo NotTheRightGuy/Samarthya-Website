@@ -33,7 +33,7 @@ export default function Register() {
                     <div className="bg-zinc-800 max-mobile:bg-zinc-600 text-zinc-400 max-mobile:text-zinc-200 px-5 py-2 font-space text-3xl inline-flex skew-y-3 mb-6 max-mobile:mt-6">
                         REGISTER
                     </div>
-                    <form>
+                    <form data-netlify="true" name="intrested">
                         <input
                             type="text"
                             placeholder="First Name"
@@ -130,133 +130,7 @@ export default function Register() {
                             </div>
                         </div>
                         <br />
-                        {/* <div className="pl-3 flex justify-center max-mobile:grid">
-                            <div>
-                                <div className="text-xl text-zinc-400 font-space mb-4 max-mobile:text-base">
-                                    Which year are you in?
-                                </div>
-                                <input
-                                    type="radio"
-                                    name="year"
-                                    id="first"
-                                    value="1st Year"
-                                />
-                                <label
-                                    for="first"
-                                    className="text-zinc-400 text-base pl-2 font-space"
-                                >
-                                    1st Year
-                                </label>
-                                <br />
-                                <input
-                                    type="radio"
-                                    name="year"
-                                    id="second"
-                                    value="2nd Year"
-                                />
-                                <label
-                                    htmlFor="second"
-                                    className="text-zinc-400 text-base pl-2 font-space"
-                                >
-                                    2nd Year
-                                </label>
-                                <br />
-                                <input
-                                    type="radio"
-                                    name="year"
-                                    id="third"
-                                    value="3rd Year"
-                                />
-                                <label
-                                    htmlFor="third"
-                                    className="text-zinc-400 text-base pl-2 font-space"
-                                >
-                                    3rd Year
-                                </label>
-                                <br />
-                                <input
-                                    type="radio"
-                                    name="year"
-                                    id="fourth"
-                                    value="4th Year"
-                                />
-                                <label
-                                    htmlFor="fourth"
-                                    className="text-zinc-400 text-base pl-2 font-space"
-                                >
-                                    4th Year
-                                </label>
-                            </div>
-                            <div className="pl-10">
-                                <div className="text-xl text-zinc-400 font-space mb-4 max-mobile:text-base max-mobile:mt-4 ">
-                                    What events are you intrested in?
-                                </div>
-                                <input
-                                    type="checkbox"
-                                    name="event"
-                                    id="saviskar"
-                                    value="Saviskar"
-                                />
-                                <label
-                                    htmlFor="first"
-                                    className="text-zinc-400 text-base pl-2 font-space"
-                                >
-                                    Saviskar
-                                </label>
-                                <br />
-                                <input
-                                    type="checkbox"
-                                    name="event"
-                                    id="1v1"
-                                    value="1v1 Coding"
-                                />
-                                <label
-                                    htmlFor="second"
-                                    className="text-zinc-400 text-base pl-2 font-space"
-                                >
-                                    1v1 Coding
-                                </label>
-                                <br />
-                                <input
-                                    type="checkbox"
-                                    name="event"
-                                    id="figma"
-                                    value="Figma Workshop"
-                                />
-                                <label
-                                    htmlFor="third"
-                                    className="text-zinc-400 text-base pl-2 font-space"
-                                >
-                                    Figma Workshop
-                                </label>
-                                <br />
-                                <input
-                                    type="checkbox"
-                                    name="event"
-                                    id="cryptic"
-                                    value="cryptic puzzle"
-                                />
-                                <label
-                                    htmlFor="fourth"
-                                    className="text-zinc-400 text-base pl-2 font-space"
-                                >
-                                    Cryptic Puzzle
-                                </label>
-                                <br />
-                                <input
-                                    type="checkbox"
-                                    name="event"
-                                    id="teamCP"
-                                    value="Team Based CP"
-                                />
-                                <label
-                                    htmlFor="fourth"
-                                    className="text-zinc-400 text-base pl-2 font-space"
-                                >
-                                    Team Based CP
-                                </label>
-                            </div>
-                        </div> */}
+
                         <button
                             type="submit"
                             className="bg-zinc-800 text-zinc-400 px-36 rounded-lg p-2 mt-8 font-space h-12 max-mobile:px-12 text-2xl transition ease-in-out hover:outline hover:scale-105 transform hover:shadow-2xl max-mobile:text-base"
