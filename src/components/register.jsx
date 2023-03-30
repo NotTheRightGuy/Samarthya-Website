@@ -162,7 +162,7 @@ export default function Register() {
                         <div
                             ref={dropDown}
                             id="dropDown"
-                            className="mt-2 hidden z-50 absolute max-mobile:absolute max-mobile:top-1/2 max-mobile:left-1/2 max-mobile:transform max-mobile:-translate-x-1/2 max-mobile:-translate-y-1/2 bg-zinc-800 text-zinc-300 flex-col rounded-lg font-space text-xl w-fit p-4"
+                            className="mt-2 hidden z-50 absolute max-mobile:top-1/2 max-mobile:left-1/2 max-mobile:transform max-mobile:-translate-x-1/2 max-mobile:-translate-y-1/2 bg-zinc-800 text-zinc-300 flex-col rounded-lg font-space text-xl w-fit p-4"
                         >
                             <div className="hover:scale-105 transition-all">
                                 <label htmlFor="event1">Saviskar</label>
