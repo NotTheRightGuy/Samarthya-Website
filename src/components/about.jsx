@@ -4,16 +4,16 @@ export default function About() {
     return (
         <section
             id="about"
-            className=" grid h-fit bg-zinc-800 rounded-lg m-16 grid-cols-2 section max-mobile:m-5 max-mobile:grid-cols-1 overflow-hidden"
+            className=" grid h-fit bg-zinc-800 rounded-lg m-16 grid-cols-2 section max-mobile:m-5 max-mobile:grid-cols-1"
         >
-            <div className="rounded-lg relative ">
+            <div className="rounded-lg relative overflow-hidden ">
                 <div className="text-8xl font-space absolute top-1  left-8 text-zinc-500">
                     01
                 </div>
                 <div className="absolute font-space text-2xl  text-white top-16 left-20 ">
                     ABOUT
                 </div>
-                <div className="text-zinc-500 font-inconsolata text-xl max-mobile:text-sm  absolute top-28 left-8 right-6 max-mobile:text-white max-mobile:leading-4">
+                <div className="text-zinc-500 font-inconsolata text-lg max-mobile:text-sm  absolute top-28 left-8 right-6 max-mobile:text-white max-mobile:leading-4 ">
                     Welcome to Samarthya, the ultimate platform for showcasing
                     your technological innovations and skills.<br></br>
                     <br></br> The ASPD club of Adani University is proud to

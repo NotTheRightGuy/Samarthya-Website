@@ -37,7 +37,7 @@ export default function Landing() {
 
     setTimeout(() => {
         motto.current.className =
-            "text-2xl font-inconsolata text-zinc-400 text-center pb-8 max-mobile:text-base max-mobile:m-2";
+            "text-2xl font-inconsolata text-zinc-400 text-center pb-8 max-mobile:text-base";
         motto.current.style.transition =
             "all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)";
         motto.current.style.opacity = "1";
@@ -64,10 +64,7 @@ export default function Landing() {
                     </h1>
                 </header>
 
-                <div ref={motto}>
-                    Join the ultimate festival for developers and programmers of
-                    all skill levels! <br></br>Hack, learn, and have fun!
-                </div>
+                <div ref={motto}>Unleashing Innovation, empowering future</div>
                 <div ref={hackInfo}>
                     <div className="font-space text-xl bg-zinc-800 py-4 px-16 rounded-3xl text-zinc-400 max-mobile:px-2 max-mobile:mx-2 max-mobile:text-sm">
                         6 - 7 MAY
