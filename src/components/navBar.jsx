@@ -97,9 +97,17 @@ export default function NavBar() {
                 <img
                     src={logo}
                     alt="Samarthya Logo"
-                    className="h-10 animate-spin-slow inline max-mobile:h-6"
+                    className="h-10 animate-spin-slow inline max-mobile:h-6 cursor-pointer"
+                    onClick={() => {
+                        window.location.href = "#home";
+                    }}
                 />
-                <div className="font-secular text-white text-xl pl-4 max-mobile:text-base max-mobile:pl-2">
+                <div
+                    className="font-secular text-white text-xl pl-4 max-mobile:text-base max-mobile:pl-2 cursor-pointer"
+                    onClick={() => {
+                        window.location.href = "#home";
+                    }}
+                >
                     Samarthya
                 </div>
                 <div className=" ml-auto font-secular text-white">
