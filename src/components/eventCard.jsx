@@ -1,6 +1,14 @@
 import { useRef, useEffect } from "react";
+import EventBtn from "./eventBtn";
 
-export default function EventCard({ title, content, date, team_number }) {
+export default function EventCard({
+    title,
+    content,
+    date,
+    team_number,
+    site,
+    hide,
+}) {
     const titleRef = useRef(null);
     const letters = "abcdefghijklmnopqrstuvwxyz";
     let iterations = 0;
@@ -36,12 +44,19 @@ export default function EventCard({ title, content, date, team_number }) {
             <div className="mt-4 text-zinc-300 text-lg max-mobile:text-base">
                 {content}
             </div>
-            <div className="mt-5 text-lg text-zinc-300 max-mobile:text-sm">
-                <span className="fa-regular fa-calendar-days mr-3"></span>
-                {date}
-            </div>
-            <div className="text-lg text-zinc-300 max-mobile:text-sm">
-                <span className="fa-regular fa-user mr-1"></span> {team_number}
+            <div>
+                <div>
+                    <div className="mt-5 text-lg text-zinc-300 max-mobile:text-sm">
+                        <span className="fa-regular fa-calendar-days mr-3"></span>
+                        {date}
+                    </div>
+                    <div className="text-lg text-zinc-300 max-mobile:text-sm">
+                        <span className="fa-regular fa-user mr-1"></span>{" "}
+                        {team_number}
+                    </div>
+                </div>
+
+                <EventBtn page={site} hide={hide} />
             </div>
         </div>
     );

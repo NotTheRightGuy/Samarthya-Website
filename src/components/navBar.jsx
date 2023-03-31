@@ -5,12 +5,20 @@ import { useEffect } from "react";
 export default function NavBar() {
     useEffect(() => {
         const navLinks = document.querySelectorAll("nav a");
+        const nav = document.getElementById("mainNav");
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
                 if (entry.intersectionRatio > 0) {
                     navLinks.forEach((e) => {
                         if (e.href.split("#")[1] == entry.target.id) {
                             e.classList.add("highlight");
+                            if (e.href.split("#")[1] !== "home") {
+                                nav.classList.add("bg-[#1a1a1a]");
+                                nav.classList.add("max-mobile:bg-[#1a1a1a]");
+                            } else {
+                                nav.classList.remove("bg-[#1a1a1a]");
+                                nav.classList.remove("max-mobile:bg-[#1a1a1a]");
+                            }
                         } else {
                             e.classList.remove("highlight");
                         }
