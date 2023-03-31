@@ -7,7 +7,7 @@ export default function Footer() {
                     You can find us here in case of any query
                 </div>
                 <div
-                    className="fa-brands fa-discord mt-1 hover:animate-spin-slow"
+                    className="fa-brands fa-discord mt-1 hover:animate-spin-slow hover:cursor-pointer"
                     onClick={() =>
                         window.open(
                             "https://discord.com/invite/QbrJNMTzUj",
@@ -15,9 +15,17 @@ export default function Footer() {
                         )
                     }
                 ></div>
-                <div className="fa-brands fa-instagram mt-1 hover:animate-spin-slow"></div>
                 <div
-                    className="fa-solid fa-envelope mt-1 hover:animate-spin-slow"
+                    className="fa-brands fa-instagram mt-1 hover:animate-spin-slow hover:cursor-pointer"
+                    onClick={() => {
+                        window.open(
+                            "https://www.instagram.com/samarthya_au/",
+                            "_blank"
+                        );
+                    }}
+                ></div>
+                <div
+                    className="fa-solid fa-envelope mt-1 hover:animate-spin-slow hover:cursor-pointer"
                     onClick={() =>
                         window.open(
                             "https://mail.google.com/mail/?view=cm&fs=1&to=clubaspd@gmail.com",
