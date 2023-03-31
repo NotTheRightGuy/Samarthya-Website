@@ -42,7 +42,7 @@ export default function NavBar() {
         <>
             <div
                 id="navMenu"
-                className="hidden bg-zinc-800 h-10 fixed top-0 z-50 w-full mt-14 text-center"
+                className="hidden h-10 fixed top-0 z-50 w-full mt-14 text-center"
             >
                 <button
                     className="text-zinc-400 font-space my-2 mx-2"
@@ -91,7 +91,7 @@ export default function NavBar() {
                 </button>
             </div>
             <nav
-                className="bg-[#100d11] flex p-4 items-center fixed top-0 z-50 w-screen"
+                className="bg-transparent flex p-4 items-center fixed top-0 z-50 w-screen"
                 id="mainNav"
             >
                 <img
