@@ -13,11 +13,10 @@ export default function NavBar() {
                         if (e.href.split("#")[1] == entry.target.id) {
                             e.classList.add("highlight");
                             if (e.href.split("#")[1] !== "home") {
-                                nav.classList.add("bg-[#1a1a1a]");
-                                nav.classList.add("max-mobile:bg-[#1a1a1a]");
+                                nav.className =
+                                    "bg-[#1a1a1a] flex p-4 items-center fixed top-0 z-50 w-screen";
                             } else {
                                 nav.classList.remove("bg-[#1a1a1a]");
-                                nav.classList.remove("max-mobile:bg-[#1a1a1a]");
                             }
                         } else {
                             e.classList.remove("highlight");

@@ -21,9 +21,11 @@ export default function Prizes() {
                         <div className="fa-solid fa-sack-dollar mt-2"></div>
                     </h1>
                     <div className="text-lg">
-                        Cash prizes and monetary rewards will beg iven to
-                        individuals or groups for their accomplishments or
-                        success in events.
+                        Cash Prizes and monetary rewards will we awarded to the
+                        winning teams and individuals. All participants who
+                        submit a valid solution will receive a certificate of
+                        participation. This certificate is designed to recognize
+                        the hard work and dedication of all participants.
                     </div>
                 </div>
                 <div className="outline outline-2 rounded-lg p-4 hover:outline-4 transition-all col-span-2 pb-11 hover:scale-105 bg-zinc-800">
@@ -34,8 +36,15 @@ export default function Prizes() {
                         <div className="fa-solid fa-building-user mt-2"></div>
                     </h1>
                     <div className="text-lg">
-                        Internship oppurtunity will be provided to students by
-                        reputed companies and organizations.
+                        You will get a chance to receive Internships which will
+                        provide learning experience, hands-on training, and a
+                        chance to apply your knowledge in a real-world setting.
+                        Internships are a great way to gain experience and build
+                        your resume. They can also help you decide if a
+                        particular career is right for you. So get ready to
+                        showcase your skills and ideas in the upcoming events.
+                        We wish you all the best of luck and we koop forward to
+                        seeing you at the event.
                     </div>
                 </div>
                 <div className="outline outline-2 rounded-lg p-4 hover:outline-4 transition-all col-span-2 pb-11 hover:scale-105 bg-zinc-800">
@@ -46,9 +55,15 @@ export default function Prizes() {
                         <div className="fa-solid fa-user mt-2"></div>
                     </h1>
                     <div className="text-lg">
-                        Cash prizes are monetary rewards will begiven to
-                        individuals or groups for their accomplishments or
-                        success in events.
+                        Participants will receive a chance to work with industry
+                        professionals. Mentors can provide feedback on
+                        participants' work, help them identify their strengths
+                        and weaknesses, and provide suggestions for improvement.
+                        Mentorship provides participants to learn from the
+                        experiences of others who have already achieved success
+                        in their respective fields. This type of guidance can be
+                        particularly valuable for participants who are just
+                        starting their careers.
                     </div>
                 </div>
                 <div className="outline outline-2 rounded-lg p-4 hover:outline-4 transition-all hover:scale-105 bg-zinc-800">
@@ -59,9 +74,12 @@ export default function Prizes() {
                         <div className="fa-solid fa-paperclip mt-2"></div>
                     </h1>
                     <div className="text-lg">
-                        Cash prizes are monetary rewards will begiven to
-                        individuals or groups for their accomplishments or
-                        success in events.
+                        Goodies,swags and other fun and useful will be provided
+                        to you. Some on which will be open for all to takeway
+                        and some will be given to the winners. These goodies are
+                        a token of appreciation for your participation and
+                        reminder of the memorable experience you will have at
+                        the event.
                     </div>
                 </div>
             </div>
