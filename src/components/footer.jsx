@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="text-zinc-400 font-inconsolata bg-zinc-800 mt-16 mx-16 desktop:rounded-lg p-1 text-xs flex justify-between max-mobile:mx-0 max-mobile:block">
+        <footer className="text-zinc-400 font-inconsolata bg-zinc-800 mt-32 mx-16 desktop:rounded-lg p-1 text-xs flex justify-between max-mobile:mx-0 max-mobile:block">
             <div className="pl-1 ">Baked With Love by ASPD Club</div>
             <div className="flex gap-2 pr-1">
                 <div className="max-mobile:pl-1">
