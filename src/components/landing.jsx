@@ -84,9 +84,7 @@ export default function Landing() {
                         </h1>
                     </header>
 
-                    <div ref={motto}>
-                        Unleashing Innovation, empowering future
-                    </div>
+                    <div ref={motto}>Think. Code. Innovate</div>
                     <div ref={hackInfo}>
                         <div className="font-space text-xl bg-zinc-800 py-4 px-16 rounded-3xl text-zinc-400 max-mobile:px-2 max-mobile:mx-2 max-mobile:text-sm">
                             6 - 7 MAY
