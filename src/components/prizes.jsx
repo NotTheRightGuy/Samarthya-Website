@@ -13,7 +13,7 @@ export default function Prizes() {
                 </div>
             </div>
             <div className="text-zinc-300 pt-32 p-4 font-inconsolata text-2xl h-screen grid grid-cols-3 gap-8">
-                <div className="outline outline-2 rounded-lg p-4 hover:outline-4 transition-all hover:scale-105">
+                <div className="outline outline-2 rounded-lg p-4 hover:outline-4 transition-all hover:scale-105 bg-zinc-800">
                     <h1 className="flex gap-6">
                         <div className="text-zinc-400 text-4xl mb-4">
                             Cash Prizes
@@ -26,7 +26,7 @@ export default function Prizes() {
                         success in events.
                     </div>
                 </div>
-                <div className="outline outline-2 rounded-lg p-4 hover:outline-4 transition-all col-span-2 pb-11 hover:scale-105">
+                <div className="outline outline-2 rounded-lg p-4 hover:outline-4 transition-all col-span-2 pb-11 hover:scale-105 bg-zinc-800">
                     <h1 className="flex gap-6">
                         <div className="text-zinc-400 text-4xl mb-4">
                             Internship
@@ -38,7 +38,7 @@ export default function Prizes() {
                         reputed companies and organizations.
                     </div>
                 </div>
-                <div className="outline outline-2 rounded-lg p-4 hover:outline-4 transition-all col-span-2 pb-11 hover:scale-105">
+                <div className="outline outline-2 rounded-lg p-4 hover:outline-4 transition-all col-span-2 pb-11 hover:scale-105 bg-zinc-800">
                     <h1 className="flex gap-6">
                         <div className="text-zinc-400 text-4xl mb-4">
                             Mentorship
@@ -51,7 +51,7 @@ export default function Prizes() {
                         success in events.
                     </div>
                 </div>
-                <div className="outline outline-2 rounded-lg p-4 hover:outline-4 transition-all hover:scale-105">
+                <div className="outline outline-2 rounded-lg p-4 hover:outline-4 transition-all hover:scale-105 bg-zinc-800">
                     <h1 className="flex gap-6">
                         <div className="text-zinc-400 text-4xl mb-4">
                             Goodies

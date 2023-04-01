@@ -35,7 +35,7 @@ export default function Events() {
                     site={"byte-brawl"}
                 />
                 <EventCard
-                    title={"cr4ckcryp7"}
+                    title={"cr4ckcryp8"}
                     content={
                         "Gear up to break your brain! In this event you will be tasked with solving a series of intricate puzzles scattered throughout the techfest. From deciphering cryptic codes to unraveling complex algorithms, each puzzle will push your mind to its limits. But with determination and perseverance, you will be able to overcome any obstacle that comes your way."
                     }

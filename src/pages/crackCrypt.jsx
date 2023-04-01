@@ -11,14 +11,14 @@ export default function CrackCrypt() {
                 />
             </div>
             <h1 className=" font-space text-7xl bg-zinc-800 w-fit text-zinc-500 p-4 hover:scale-110 transition-all">
-                cr4ckcryp7
+                cr4ckcryp8
             </h1>
             <div className="font-space text-xl text-white mt-2 text-center p-20">
                 Introducing{" "}
-                <span className="bg-white text-black pl-2 ">c4ckcryp7 </span> ,
+                <span className="bg-white text-black pl-2 ">cr4ckcryp8 </span> ,
                 a one-of-a-kind competition that promises to challenge your
                 intellect and reward your persistence.{" "}
-                <span className="bg-white text-black pl-2 ">c4ckcryp7 </span>
+                <span className="bg-white text-black pl-2 ">cr4ckcryp8 </span>
                 is a series of intricate and perplexing puzzles that will test
                 your knowledge of cryptography, steganography, and other
                 esoteric fields. <br />
