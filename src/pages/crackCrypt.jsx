@@ -2,7 +2,7 @@ import eyes from "../assets/crackTheCode.gif";
 
 export default function CrackCrypt() {
     return (
-        <div className="h-screen flex relative justify-center items-center flex-col">
+        <div className="h-screen flex relative justify-center items-center flex-col max-mobile:inline">
             <div>
                 <img
                     src={eyes}
@@ -10,10 +10,10 @@ export default function CrackCrypt() {
                     className="absolute -z-50 opacity-25 top-0 left-0 w-full h-full object-cover"
                 />
             </div>
-            <h1 className=" font-space text-7xl bg-zinc-800 w-fit text-zinc-500 p-4 hover:scale-110 transition-all">
+            <h1 className="font-space text-7xl bg-zinc-800  max-mobile:w-full max-mobile:text-center text-zinc-500 p-4 hover:scale-110 transition-all max-mobile:text-4xl">
                 cr4ckcryp8
             </h1>
-            <div className="font-space text-xl text-white mt-2 text-center p-20">
+            <div className="font-space text-xl text-white mt-2 text-center p-20 max-mobile:p-4 max-mobile:text-sm">
                 Introducing{" "}
                 <span className="bg-white text-black pl-2 ">cr4ckcryp8 </span> ,
                 a one-of-a-kind competition that promises to challenge your
