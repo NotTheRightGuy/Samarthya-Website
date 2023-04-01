@@ -3,6 +3,7 @@ import Landing from "./components/landing";
 import About from "./components/about";
 import Events from "./components/events";
 import Prizes from "./components/prizes";
+import FAQ from "./components/faq";
 import Register from "./components/register";
 import Footer from "./components/footer";
 import ThankYou from "./pages/thankYou";
@@ -26,6 +27,7 @@ function App() {
                         <About />
                         <Events />
                         <Prizes />
+                        <FAQ />
                         <Register />
                         <Footer />
                     </div>

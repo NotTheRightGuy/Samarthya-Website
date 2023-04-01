@@ -7,8 +7,8 @@ export default function Saviskar() {
                     src={saviskar}
                     className="absolute -z-50 opacity-10 w-full h-full object-cover"
                 />
-                <h1 className="text-zinc-300 font-space text-7xl m-4 bg-zinc-800 w-fit p-4 hover:translate-x-12 hover:bg-zinc-900 hover:text-white transition-all">
-                    SAVISKAR
+                <h1 className="text-zinc-300 font-space text-7xl m-4 bg-zinc-900 w-fit p-4 hover:translate-x-12 hover:bg-zinc-400 hover:text-zinc-900 transition-all">
+                    Saviskar
                 </h1>
                 <div className="text-white m-4 font-inconsolata text-lg">
                     Welcome to Saviskar, the 36-hour long hackathon powered by

@@ -92,6 +92,15 @@ export default function NavBar() {
                     className="text-zinc-400 font-space my-2 mx-2"
                     onClick={() => {
                         handleClick();
+                        window.location.href = "#faq";
+                    }}
+                >
+                    FAQ
+                </button>
+                <button
+                    className="text-zinc-400 font-space my-2 mx-2"
+                    onClick={() => {
+                        handleClick();
                         window.location.href = "#register";
                     }}
                 >
@@ -142,6 +151,12 @@ export default function NavBar() {
                         className="px-4  hover:text-slate-400 transition ease-in-out max-mobile:hidden"
                     >
                         PRIZES
+                    </a>
+                    <a
+                        href="#faq"
+                        className="px-4  hover:text-slate-400 transition ease-in-out max-mobile:hidden"
+                    >
+                        FAQ
                     </a>
 
                     <a
