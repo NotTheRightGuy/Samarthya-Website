@@ -47,7 +47,7 @@ export default function Landing() {
 
     setTimeout(() => {
         videoRef.current.className =
-            "text-white h-screen blur-xl opacity-25 rounded-lg backdrop-brightness-50 transition-all duration-1000";
+            "text-white h-screen blur opacity-25 rounded-lg backdrop-brightness-50 transition-all duration-1000";
         hackInfo.current.className = "flex gap-4 max-mobile:gap-2";
         hackInfo.current.style.transition =
             "all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)";
@@ -59,7 +59,7 @@ export default function Landing() {
         <>
             <div
                 ref={videoRef}
-                className="text-white h-screen blur-xl opacity-0 rounded-lg backdrop-brightness-50 transition-all duration-1000"
+                className="text-white h-screen blur opacity-0 rounded-lg backdrop-brightness-50 transition-all duration-1000"
             >
                 <video
                     autoPlay
