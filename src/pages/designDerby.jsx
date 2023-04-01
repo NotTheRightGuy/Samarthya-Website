@@ -1,4 +1,4 @@
-import codeRush from "../assets/c0derush.gif";
+import design from "../assets/designDerby.gif";
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
 import soloFormValidator from "../helper/soloFormValidator";
@@ -50,7 +50,7 @@ export default function DesignDerby() {
         <section className="flex h-screen">
             <div id="section-1" className="flex-1 relative overflow-auto">
                 <img
-                    src={codeRush}
+                    src={design}
                     className="absolute -z-50 opacity-10 w-full h-full object-cover"
                 />
                 <h1 className="text-zinc-300 font-space text-7xl m-4 bg-zinc-900 w-fit p-4 hover:translate-x-12 hover:bg-zinc-200 hover:text-zinc-900 transition-all">

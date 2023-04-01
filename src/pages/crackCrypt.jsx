@@ -36,7 +36,7 @@ export default function CrackCrypt() {
                 <br />
                 <br />
                 <span className="bg-white text-black text-xs p-2">
-                    You will find the first clue here on 26th April
+                    You will find the first clue here on 25th April
                 </span>
             </div>
         </div>
