@@ -58,7 +58,7 @@ export default function teamFormValidator(
             msg = "Team member 4 phone number is invalid";
             return msg;
         }
-        if (!enrolValidator(teamMember4[1])) {
+        if (!enrolValidator(teamMember4[2])) {
             msg = "Team member 4 enrol is invalid";
             return msg;
         }
