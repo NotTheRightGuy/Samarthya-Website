@@ -123,7 +123,7 @@ export default function CodeRush() {
                             </label>
                             <br />
                             <input
-                                placeholder="12 Digit Enrolment ID"
+                                placeholder="12/6 Digit Enrolment ID"
                                 type="text"
                                 name="name"
                                 id="enrol"
