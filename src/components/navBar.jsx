@@ -49,7 +49,7 @@ export default function NavBar() {
         <>
             <div
                 id="navMenu"
-                className="hidden h-10 fixed top-0 z-50 w-full mt-14 text-center"
+                className="hidden h-fit bg-[#1a1a1a] fixed top-0 z-50 w-full mt-14 text-center"
             >
                 <button
                     className="text-zinc-400 font-space my-2 mx-2"

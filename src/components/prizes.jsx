@@ -2,7 +2,7 @@ export default function Prizes() {
     return (
         <div
             id="prizes"
-            className="section h-fit bg-zinc-800 m-16 rounded-lg sm:m-8"
+            className="section h-fit bg-zinc-800 m-16 rounded-lg sm:m-8 max-mobile:m-4"
         >
             <div className="relative">
                 <div className="text-8xl font-space absolute top-1 left-1 text-zinc-500">
@@ -12,15 +12,15 @@ export default function Prizes() {
                     PRIZES
                 </div>
             </div>
-            <div className="text-zinc-300 pt-32 p-4 font-inconsolata text-2xl h-screen grid grid-cols-3 gap-8">
+            <div className="text-zinc-300 pt-32 p-4 font-inconsolata text-2xl h-fit grid grid-cols-3 gap-8 max-mobile:grid-cols-1">
                 <div className="outline outline-2 rounded-lg p-4 hover:outline-4 transition-all hover:scale-105 bg-zinc-800">
                     <h1 className="flex gap-6">
-                        <div className="text-zinc-400 text-4xl mb-4">
+                        <div className="text-zinc-400 text-4xl mb-4 max-mobile:text-2xl">
                             Cash Prizes
                         </div>
                         <div className="fa-solid fa-sack-dollar mt-2"></div>
                     </h1>
-                    <div className="text-lg">
+                    <div className="text-lg max-mobile:text-sm">
                         Cash Prizes and monetary rewards will we awarded to the
                         winning teams and individuals. All participants who
                         submit a valid solution will receive a certificate of
@@ -30,12 +30,12 @@ export default function Prizes() {
                 </div>
                 <div className="outline outline-2 rounded-lg p-4 hover:outline-4 transition-all col-span-2 pb-11 hover:scale-105 bg-zinc-800">
                     <h1 className="flex gap-6">
-                        <div className="text-zinc-400 text-4xl mb-4">
+                        <div className="text-zinc-400 text-4xl mb-4 max-mobile:text-2xl">
                             Internship
                         </div>
                         <div className="fa-solid fa-building-user mt-2"></div>
                     </h1>
-                    <div className="text-lg">
+                    <div className="text-lg max-mobile:text-sm">
                         You will get a chance to receive Internships which will
                         provide learning experience, hands-on training, and a
                         chance to apply your knowledge in a real-world setting.
@@ -49,12 +49,12 @@ export default function Prizes() {
                 </div>
                 <div className="outline outline-2 rounded-lg p-4 hover:outline-4 transition-all col-span-2 pb-11 hover:scale-105 bg-zinc-800">
                     <h1 className="flex gap-6">
-                        <div className="text-zinc-400 text-4xl mb-4">
+                        <div className="text-zinc-400 text-4xl mb-4 max-mobile:text-2xl">
                             Mentorship
                         </div>
                         <div className="fa-solid fa-user mt-2"></div>
                     </h1>
-                    <div className="text-lg">
+                    <div className="text-lg max-mobile:text-sm">
                         Participants will receive a chance to work with industry
                         professionals. Mentors can provide feedback on
                         participants' work, help them identify their strengths
@@ -68,12 +68,12 @@ export default function Prizes() {
                 </div>
                 <div className="outline outline-2 rounded-lg p-4 hover:outline-4 transition-all hover:scale-105 bg-zinc-800">
                     <h1 className="flex gap-6">
-                        <div className="text-zinc-400 text-4xl mb-4">
+                        <div className="text-zinc-400 text-4xl mb-4 max-mobile:text-2xl">
                             Goodies
                         </div>
                         <div className="fa-solid fa-paperclip mt-2"></div>
                     </h1>
-                    <div className="text-lg">
+                    <div className="text-lg max-mobile:text-sm">
                         Goodies,swags and other fun and useful will be provided
                         to you. Some on which will be open for all to takeway
                         and some will be given to the winners. These goodies are

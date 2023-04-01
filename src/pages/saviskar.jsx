@@ -82,16 +82,20 @@ export default function Saviskar() {
     };
 
     return (
-        <section className="flex h-screen">
-            <div id="section-1" className="flex-1 relative overflow-auto">
+        <section className="flex h-screen max-mobile:inline ">
+            <div
+                id="section-1"
+                className="flex-1 relative overflow-auto max-mobile:overflow-clip"
+            >
                 <img
                     src={saviskar}
                     className="absolute -z-50 opacity-10 w-full h-full object-cover"
+                    alt="Background"
                 />
-                <h1 className="text-zinc-300 font-space text-7xl m-4 bg-zinc-900 w-fit p-4 hover:translate-x-12 hover:bg-zinc-200 hover:text-zinc-900 transition-all">
+                <h1 className="text-zinc-300 font-space text-7xl max-mobile:text-4xl m-4 bg-zinc-900 w-fit p-4 hover:translate-x-12 hover:bg-zinc-200 hover:text-zinc-900 transition-all">
                     Saviskar
                 </h1>
-                <div className="text-white m-4 font-inconsolata text-lg">
+                <div className="text-white m-4 font-inconsolata text-lg max-mobile:text-sm">
                     Welcome to Saviskar, the 36-hour long hackathon powered by
                     IQM! Are you ready to put your problem-solving skills to the
                     test and come up with innovative solutions to real-world
@@ -128,8 +132,8 @@ export default function Saviskar() {
                 </div>
                 <div className="text-white font-space m-4">
                     <form>
-                        <label htmlFor="teamName" className="text-2xl">
-                            <span className="text-red-700 text-xs mr-1">*</span>
+                        <label htmlFor="teamName" className="text-lg">
+                            <span className="text-red-700 text-sm mr-1">*</span>
                             Team Name
                         </label>
                         <br />
@@ -137,13 +141,13 @@ export default function Saviskar() {
                             id="teamName"
                             name="teamName"
                             type="text"
-                            className="bg-transparent outline w-1/2 h-10 border-2 border-white rounded-md p-2 mt-4 mb-4"
+                            className="bg-transparent outline w-3/4 max-mobile:w-full h-10 border-2 border-white rounded-md p-2 mt-4 mb-4 "
                             placeholder="Go crazy"
                         />
                         <br />
-                        <div className="text-2xl -mb-2">Team Members</div>
+                        <div className="text-lg -mb-2">Team Members</div>
                         <br />
-                        <label htmlFor="member1" className="text-xl">
+                        <label htmlFor="member1" className="text-lg">
                             <span className="text-red-700 text-xs mr-1">*</span>
                             Member 1
                         </label>
@@ -152,7 +156,7 @@ export default function Saviskar() {
                             id="member1Name"
                             name="member1"
                             type="text"
-                            className="bg-transparent outline w-72 h-10 border-2 border-white rounded-md p-2 mt-2 mb-4 mr-5"
+                            className="bg-transparent outline w-1/2 h-10 border-2 border-white rounded-md p-2 mt-2 mb-4 mr-5"
                             placeholder="Full Name"
                         />
                         <input
@@ -165,10 +169,10 @@ export default function Saviskar() {
                             id="member1Contact"
                             type="text"
                             placeholder="Contact Number"
-                            className="bg-transparent outline w-1/4 h-10 border-2 border-white rounded-md p-2  mb-4"
+                            className="bg-transparent outline w-1/2 h-10 border-2 border-white rounded-md p-2  mb-4"
                         />
                         <br />
-                        <label htmlFor="member2" className="text-xl">
+                        <label htmlFor="member2" className="text-lg">
                             <span className="text-red-700 text-xs mr-1">*</span>
                             Member 2
                         </label>
@@ -177,7 +181,7 @@ export default function Saviskar() {
                             id="member2Name"
                             name="member2"
                             type="text"
-                            className="bg-transparent outline w-72 h-10 border-2 border-white rounded-md p-2 mt-2 mb-4 mr-5"
+                            className="bg-transparent outline w-1/2 h-10 border-2 border-white rounded-md p-2 mt-2 mb-4 mr-5"
                             placeholder="Full Name"
                         />
                         <input
@@ -193,7 +197,7 @@ export default function Saviskar() {
                             className="bg-transparent outline w-1/4 h-10 border-2 border-white rounded-md p-2  mb-4"
                         />
                         <br />
-                        <label htmlFor="member3" className="text-xl">
+                        <label htmlFor="member3" className="text-lg">
                             Member 3
                         </label>
                         <br />
@@ -201,7 +205,7 @@ export default function Saviskar() {
                             id="member3Name"
                             name="member3"
                             type="text"
-                            className="bg-transparent outline w-72 h-10 border-2 border-white rounded-md p-2 mt-2 mb-4 mr-5"
+                            className="bg-transparent outline w-1/2 h-10 border-2 border-white rounded-md p-2 mt-2 mb-4 mr-5"
                             placeholder="Full Name"
                         />
                         <input
@@ -217,7 +221,7 @@ export default function Saviskar() {
                             className="bg-transparent outline w-1/4 h-10 border-2 border-white rounded-md p-2  mb-4"
                         />
                         <br />
-                        <label htmlFor="member4" className="text-xl">
+                        <label htmlFor="member4" className="text-lg">
                             Member 4
                         </label>
                         <br />
@@ -225,7 +229,7 @@ export default function Saviskar() {
                             id="member4Name"
                             name="member4"
                             type="text"
-                            className="bg-transparent outline w-72 h-10 border-2 border-white rounded-md p-2 mt-2 mb-4 mr-5"
+                            className="bg-transparent outline w-1/2 h-10 border-2 border-white rounded-md p-2 mt-2 mb-4 mr-5"
                             placeholder="Full Name"
                         />
                         <input
@@ -246,7 +250,7 @@ export default function Saviskar() {
                                 handleRegister();
                             }}
                             type="submit"
-                            className="text-white mt-10 text-xl outline outline-2 p-4 rounded-lg hover:scale-105 transform transition duration-300 ease-in-out bg-zinc-800 hover:bg-zinc-300 hover:text-zinc-800"
+                            className="text-white mt-10 text-lg outline outline-2 p-4 rounded-lg hover:scale-105 transform transition duration-300 ease-in-out bg-zinc-800 hover:bg-zinc-300 hover:text-zinc-800"
                         >
                             Submit
                         </button>
