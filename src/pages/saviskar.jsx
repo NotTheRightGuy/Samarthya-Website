@@ -120,7 +120,7 @@ export default function Saviskar() {
                     ready to unleash your creativity and problem-solving skills!
                 </div>
                 <div className="text-white text-xs font-secular p-8 text-center">
-                    Everyone is requested to kindly choice an appropriate team
+                    Everyone is requested to kindly choose an appropriate team
                     name. <br />
                     ASPDC holds the right to change the team name or disqualify
                     team if it is found to be inappropriate.

@@ -116,7 +116,7 @@ export default function ByteBrawl() {
                     from some of the best programmers in the university.
                 </div>
                 <div className="text-white text-xs font-secular p-8 text-center">
-                    Everyone is requested to kindly choice an appropriate team
+                    Everyone is requested to kindly choose an appropriate team
                     name. <br />
                     ASPDC holds the right to change the team name or disqualify
                     team if it is found to be inappropriate.
