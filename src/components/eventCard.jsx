@@ -32,7 +32,8 @@ export default function EventCard({
 
     return (
         <div
-            className="bg-zinc-800 rounded-lg p-4 text-left font-inconsolata hover:outline hover:outline-2 hover:outline-zinc-500 "
+            className="bg-zinc-800 rounded-lg p-4 text-left font-inconsolata hover:outline hover:outline-2 hover:outline-zinc-500 grid 
+             "
             onMouseEnter={() => handleOver()}
         >
             <span
@@ -45,18 +46,19 @@ export default function EventCard({
                 {content}
             </div>
             <div>
-                <div>
-                    <div className="mt-5 text-lg text-zinc-300 max-mobile:text-sm">
-                        <span className="fa-regular fa-calendar-days mr-3"></span>
-                        {date}
+                <div className="align-center flex justify-between">
+                    <div>
+                        <div className="mt-5 text-lg text-zinc-300 max-mobile:text-sm">
+                            <span className="fa-regular fa-calendar-days mr-3"></span>
+                            {date}
+                        </div>
+                        <div className="text-lg text-zinc-300 max-mobile:text-sm">
+                            <span className="fa-regular fa-user mr-1"></span>{" "}
+                            {team_number}
+                        </div>
                     </div>
-                    <div className="text-lg text-zinc-300 max-mobile:text-sm">
-                        <span className="fa-regular fa-user mr-1"></span>{" "}
-                        {team_number}
-                    </div>
+                    <EventBtn page={site} hide={hide} />
                 </div>
-
-                <EventBtn page={site} hide={hide} />
             </div>
         </div>
     );

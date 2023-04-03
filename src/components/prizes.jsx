@@ -12,8 +12,8 @@ export default function Prizes() {
                     PRIZES
                 </div>
             </div>
-            <div className="text-zinc-300 pt-32 p-4 font-inconsolata text-2xl h-fit grid grid-cols-3 gap-8 max-mobile:grid-cols-1">
-                <div className="outline outline-2 rounded-lg p-4 hover:outline-4 transition-all hover:scale-105 bg-zinc-800">
+            <div className="text-zinc-300 pt-32 p-4  font-inconsolata text-2xl h-fit grid grid-cols-3 gap-8 max-mobile:grid-cols-1">
+                <div className="outline outline-2 rounded-lg p-4  max-mobile:w-[111%]   hover:outline-4 transition-all hover:scale-105 bg-zinc-800">
                     <h1 className="flex gap-6">
                         <div className="text-zinc-400 text-4xl mb-4 max-mobile:text-2xl">
                             Cash Prizes
@@ -28,7 +28,7 @@ export default function Prizes() {
                         the hard work and dedication of all participants.
                     </div>
                 </div>
-                <div className="outline outline-2 rounded-lg p-4 hover:outline-4 transition-all col-span-2 pb-11 hover:scale-105 bg-zinc-800">
+                <div className="outline outline-2 rounded-lg p-4 hover:outline-4 transition-all col-span-2 hover:scale-105 bg-zinc-800">
                     <h1 className="flex gap-6">
                         <div className="text-zinc-400 text-4xl mb-4 max-mobile:text-2xl">
                             Internship
@@ -47,7 +47,7 @@ export default function Prizes() {
                         seeing you at the event.
                     </div>
                 </div>
-                <div className="outline outline-2 rounded-lg p-4 hover:outline-4 transition-all col-span-2 pb-11 hover:scale-105 bg-zinc-800">
+                <div className="outline outline-2 rounded-lg p-4 hover:outline-4 transition-all col-span-2 hover:scale-105 bg-zinc-800">
                     <h1 className="flex gap-6">
                         <div className="text-zinc-400 text-4xl mb-4 max-mobile:text-2xl">
                             Mentorship
@@ -66,7 +66,7 @@ export default function Prizes() {
                         starting their careers.
                     </div>
                 </div>
-                <div className="outline outline-2 rounded-lg p-4 hover:outline-4 transition-all hover:scale-105 bg-zinc-800">
+                <div className="outline outline-2 rounded-lg p-4  max-mobile:w-[111%]   hover:outline-4 transition-all hover:scale-105 bg-zinc-800">
                     <h1 className="flex gap-6">
                         <div className="text-zinc-400 text-4xl mb-4 max-mobile:text-2xl">
                             Goodies
