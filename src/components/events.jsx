@@ -28,7 +28,7 @@ export default function Events() {
                 <EventCard
                     title={"Byte Brawl"}
                     content={
-                        "A sport where you collaborate and create your own team to compete against many other teams of competitive programmers. Ignite the logical side of your brain to find the best solution to a list of real world problems ."
+                        "A sport where you collaborate and create your own team to compete against many other teams of competitive programmers. Ignite the logical side of your brain to find the best solution to a list of problems ."
                     }
                     date={"7th May"}
                     team_number={"2-4"}
@@ -46,7 +46,7 @@ export default function Events() {
                 <EventCard
                     title={"Design Derby"}
                     content={
-                        "Unleash your inner artist and get ready to showcase your web design skills in an epic competition! Join forces with your team to create the most stunning and imaginative website, vying to take home the top prize."
+                        "Unleash your inner artist and get ready to showcase your web design skills in an epic competition! Awaken your inner artist to create the most stunning and imaginative website or apps vying to take home the top prize."
                     }
                     date={"7th May"}
                     team_number={"Solo"}

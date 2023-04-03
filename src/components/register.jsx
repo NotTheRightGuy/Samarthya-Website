@@ -174,7 +174,7 @@ export default function Register() {
                             </div>
                             <br />
                             <div className="hover:scale-105 transition-all">
-                                <label htmlFor="event2">Aiganite</label>
+                                <label htmlFor="event2">c0deRush</label>
                                 <input
                                     type="checkbox"
                                     id="event2"
@@ -183,7 +183,7 @@ export default function Register() {
                             </div>
                             <br />
                             <div className="hover:scale-105 transition-all">
-                                <label htmlFor="event3">Devjousts</label>
+                                <label htmlFor="event3">Byte Brawl</label>
                                 <input
                                     type="checkbox"
                                     id="event3"
@@ -192,7 +192,7 @@ export default function Register() {
                             </div>
                             <br />
                             <div className="hover:scale-105 transition-all">
-                                <label htmlFor="event4">Crack the Code</label>
+                                <label htmlFor="event4">cr4ckcryp8</label>
                                 <input
                                     type="checkbox"
                                     id="event4"
@@ -201,7 +201,7 @@ export default function Register() {
                             </div>
                             <br />
                             <div className="hover:scale-105 transition-all">
-                                <label htmlFor="event5">Figma Event</label>
+                                <label htmlFor="event5">Design Derby</label>
                                 <input
                                     type="checkbox"
                                     id="event5"
