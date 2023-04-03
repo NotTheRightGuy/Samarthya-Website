@@ -160,7 +160,7 @@ export default function NavBar() {
 
                     <a
                         href="#register"
-                        className="px-3 py-3 bg-sky-600 rounded-xl max-mobile:hidden hover:outline cursor-pointer hover:outline-1 hover:bg-transparent transition ease-in-out hover:scale-105"
+                        className="px-3 py-3 bg-sky-500 rounded-xl max-mobile:hidden hover:outline cursor-pointer hover:outline-1 hover:bg-transparent transition ease-in-out hover:scale-105"
                     >
                         REGISTER
                     </a>
