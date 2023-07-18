@@ -18,32 +18,32 @@ import "../fontawesome/css/all.css";
 
 function App() {
     return (
-        <div className="App">
-            <Postpone />
-        </div>
-        // <Routes>
-        //     <Route
-        //         path="/"
-        //         element={
-        //             <div className="App">
-        //                 {/* <NavBar />
-        //                 <Landing />
-        //                 <About />
-        //                 <Events />
-        //                 <Prizes />
-        //                 <FAQ />
-        //                 <Register />
-        //                 <Footer /> */}
-        //             </div>
-        //         }
-        //     />
-        //     <Route path="/thank-you" element={<ThankYou />} />
-        //     <Route path="/saviskar" element={<Saviskar />} />
-        //     <Route path="/design-derby" element={<DesignDerby />} />
-        //     <Route path="/crack-crypt" element={<CrackCrypt />} />
-        //     <Route path="/coderush" element={<CodeRush />} />
-        //     <Route path="/byte-brawl" element={<ByteBrawl />} />
-        // </Routes>
+        // <div className="App">
+        //     <Postpone />
+        // </div>
+        <Routes>
+            <Route
+                path="/"
+                element={
+                    <div className="App">
+                        <NavBar />
+                        <Landing />
+                        <About />
+                        <Events />
+                        <Prizes />
+                        <FAQ />
+                        <Register />
+                        <Footer />
+                    </div>
+                }
+            />
+            <Route path="/thank-you" element={<ThankYou />} />
+            <Route path="/saviskar" element={<Saviskar />} />
+            <Route path="/design-derby" element={<DesignDerby />} />
+            <Route path="/crack-crypt" element={<CrackCrypt />} />
+            <Route path="/coderush" element={<CodeRush />} />
+            <Route path="/byte-brawl" element={<ByteBrawl />} />
+        </Routes>
     );
 }
 
